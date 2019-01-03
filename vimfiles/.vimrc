@@ -30,3 +30,10 @@ set paste
 
 syntax on                      " enable syntax highlighting
 filetype plugin indent on      " enable file type detection
+
+set list
+scriptencoding utf-8
+set encoding=utf-8
+let &listchars="tab:\u2192 ,eol:\u02e5,space:\u2219"
+hi SpecialKey ctermfg=darkgrey guifg=darkgrey
+hi NonText ctermfg=darkgrey guifg=gray
